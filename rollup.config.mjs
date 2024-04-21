@@ -27,7 +27,7 @@ export default {
   input: './src/index.ts',
   output: [{
     file: main,
-    name: main,
+    name: name,
     ...settings,
     format: 'cjs',
     plugins: [
